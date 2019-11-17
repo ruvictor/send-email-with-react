@@ -2,21 +2,43 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App > .Content{
+  display: table;
+  margin: 10% auto 0;
+  max-width: 700px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formBlock{
+  width: 100%;
+  background-color:#ddd;
+  display: table;
+  padding:20px;
+  border-radius: 5px;;
 }
 
-.App-link {
-  color: #09d3ac;
+label{
+  width:100%;
+  display: block;
+}
+
+input[type="text"],
+textarea{
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  display: block;
+  font-size:14px;
+  padding:5px;
+  box-sizing: border-box;
+  margin: 0 0 5px;
+}
+
+.submitBtn{
+  display: table;
+  margin:0 auto;
+  border: none;
+  border-radius: 2px;
+  font-size:14px;
+  padding:5px;
+  background-color: #757575;
+  color: #fff;
 }
